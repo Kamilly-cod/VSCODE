@@ -6,35 +6,32 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-position-x: right;
-    background-position-y: 10% ;
+    background-position-y: 20% ;
     position: relative;
     isolation: isolate;
 
 }
 
 h1 {
-    color: rgb(250, 211, 231);
+    color: #eda9c6;
 
 }
 
 h2 {
-    color: rgb(144, 233, 249);
+    color: #80a8d9;
 
-}
-h3 {
-    
 }
 
 b {
-color: pink;
+color: rgb(251, 116, 138);
 }
 
 i {
-    color: rgb(206, 255, 247);
+    color: #7c60fa;
 }
 
 strong {
-    color: pink;
+    color: rgb(236, 150, 164);
     
 }
 blockquote {
@@ -52,15 +49,41 @@ blockquote {
 nav {
     text-align: center;
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+
+
+
 }
 a {
-    background-color: pink;
+    background-color: rgb(245, 152, 185);
     border-radius: 50%;
     padding: 30px;
-    
-
+    width: 100px;
+    height: 25px;
+    padding-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: none;
 }
-
+a:visited {
+    color: rgb(255, 244, 245);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(230, 64, 91);
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 
